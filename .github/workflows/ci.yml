@@ -1,11 +1,9 @@
+
+name: CI
 on:
   push:
   workflow_dispatch:
 
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-
-name: CI
 
 jobs:
   eslint:

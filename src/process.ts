@@ -10,6 +10,7 @@ type ActionsListJobsForWorkflowRunResponseData = components['schemas']['job'];
 
 export const getTargetRunId = (context: Context): number => /^\d+$/.test(getInput('TARGET_RUN_ID')) ? Number(getInput('TARGET_RUN_ID')) : context.runId;
 
+// @ts-ignore
 export const getJobs = async(octokit: Octokit, context: Context): Promise<Array<ActionsListJobsForWorkflowRunResponseData>> => octokit.paginate(
   octokit.rest.actions.listJobsForWorkflowRun,
   {
