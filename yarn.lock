@@ -498,7 +498,7 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/tsconfig/-/tsconfig-3.0.1.tgz#e2eaebda42aa7a755b11bdfbea847446652e1ac4"
   integrity sha512-0/gtPNTY3++0J2BZM5nHHULg0BIMw886gqdn8vWN+Av6bgF5ZU2qIcHubAn+Z9KNvJhO8WFE+9kDOU3n6OcKtA==
 
-"@technote-space/github-action-helper@^5.3.10", "@technote-space/github-action-helper@^5.3.8":
+"@technote-space/github-action-helper@^5.3.10":
   version "5.3.10"
   resolved "https://registry.yarnpkg.com/@technote-space/github-action-helper/-/github-action-helper-5.3.10.tgz#d9f7300048c2c3aa7297fdbf569b0739983f2a55"
   integrity sha512-g3fbBSQcq4VzOS8Nk8gbJxs/LqmdfKixzhgy2gi09lsxW5thYSGtKES8wlfp5AN5MrDxg8JoTOq4Cuu3X3fSog==
@@ -511,10 +511,10 @@
     shell-escape "^0.2.0"
     sprintf-js "^1.1.2"
 
-"@technote-space/github-action-log-helper@^0.2.8", "@technote-space/github-action-log-helper@^0.2.9":
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/@technote-space/github-action-log-helper/-/github-action-log-helper-0.2.9.tgz#8d054e497a2c5ae4c47297fcebb5ca43dba35e00"
-  integrity sha512-CnMsFGmCHUTxEC+CfKQv40aan8Ga1E86EVOsKAA691IZHvFo4R1RSSuWHfcermJxJIcnTuxyEU/yDqN/vdSI/w==
+"@technote-space/github-action-log-helper@^0.2.10", "@technote-space/github-action-log-helper@^0.2.9":
+  version "0.2.19"
+  resolved "https://registry.yarnpkg.com/@technote-space/github-action-log-helper/-/github-action-log-helper-0.2.19.tgz#9f693dc5baccf3615f0bdde4ea3903df51574023"
+  integrity sha512-WkGQOqdcSbMGtnU92loB+gY9dgbbBKViUIunOAiUy9hYRz3gCdE5blcj247cVoOzUhssPbVQJQKxG+DHg2plHQ==
   dependencies:
     "@actions/core" "^1.10.0"
     sprintf-js "^1.1.2"
@@ -531,22 +531,22 @@
     vitest "^0.25.3"
 
 "@technote-space/release-github-actions-cli@^1.9.3":
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/@technote-space/release-github-actions-cli/-/release-github-actions-cli-1.9.3.tgz#a71e1dd1e85e71069eaed251ddc14f44000daf3f"
-  integrity sha512-oSjpLOGyEiMQvUjZ6Qd5CQxFQneWbHqIxu7D5efnbKDitMNcxjQQN7Pq0PgavRhp7HJrtP1u/2Fmz7DIvMZUSQ==
+  version "1.9.5"
+  resolved "https://registry.yarnpkg.com/@technote-space/release-github-actions-cli/-/release-github-actions-cli-1.9.5.tgz#14ea6ae1f19ad37564d57dea0f7cbece3eec7cfa"
+  integrity sha512-hlhYKmnoubfcBSeyviIf+4qryeOq66VAH++GN3NP+AN3zlrgva74CmMxAAE1KWLAwl9TX/cdZvFRNKGMKnSmxQ==
   dependencies:
-    "@technote-space/github-action-helper" "^5.3.8"
-    "@technote-space/github-action-log-helper" "^0.2.8"
-    "@technote-space/release-github-actions" "^8.0.1"
-    commander "^9.4.1"
-    cosmiconfig "^7.0.1"
+    "@technote-space/github-action-helper" "^5.3.10"
+    "@technote-space/github-action-log-helper" "^0.2.10"
+    "@technote-space/release-github-actions" "^8.0.3"
+    commander "^10.0.0"
+    cosmiconfig "^8.0.0"
     dotenv "^16.0.3"
     js-yaml "^4.1.0"
 
-"@technote-space/release-github-actions@^8.0.1":
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/@technote-space/release-github-actions/-/release-github-actions-8.0.1.tgz#c578b233bfda7c379fe44f083039ac1efd3b83ce"
-  integrity sha512-2eHd/Y+PstOF2iytHTNrtJZDPVwspzAsNb2jDqzwvh0zPDmYOG9D8ohKDO0Yc41cpipQsE383EfsL/vJJ/7eJQ==
+"@technote-space/release-github-actions@^8.0.3":
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/@technote-space/release-github-actions/-/release-github-actions-8.0.3.tgz#914ff8e859dd165834d6c1e79d80a7fe89cf8052"
+  integrity sha512-0/8/ANstwtZpCQ4qVcM+TBSso2HW8becPdaBlz8rGeqdhBvNN8kd3RGEEiEXw/gMLLHLUX26YBB30cNt4ZO1Zw==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.9"
@@ -1061,6 +1061,11 @@ colorette@^2.0.19:
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-2.0.19.tgz#cdf044f47ad41a0f4b56b3a0d5b4e6e1a2d5a798"
   integrity sha512-3tlv/dIP7FWvj3BsbHrGLJ6l/oKh1O3TcgBqMn+yyCagOxc23fyzDS6HypQbgxWbkpDnf52p1LuR4eWDQ/K9WQ==
 
+commander@^10.0.0:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-10.0.1.tgz#881ee46b4f77d1c1dccc5823433aa39b022cbe06"
+  integrity sha512-y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==
+
 commander@^9.4.1:
   version "9.4.1"
   resolved "https://registry.yarnpkg.com/commander/-/commander-9.4.1.tgz#d1dd8f2ce6faf93147295c0df13c7c21141cfbdd"
@@ -1123,7 +1128,7 @@ cosmiconfig-typescript-loader@^4.0.0:
   resolved "https://registry.yarnpkg.com/cosmiconfig-typescript-loader/-/cosmiconfig-typescript-loader-4.2.0.tgz#a3cfd0dd9dac86be7dbe5f53eb46ad03abdf417b"
   integrity sha512-NkANeMnaHrlaSSlpKGyvn2R4rqUDeE/9E5YHx+b4nwo0R8dZyAqcih8/gxpCZvqWP9Vf6xuLpMSzSgdVEIM78g==
 
-cosmiconfig@^7.0.0, cosmiconfig@^7.0.1:
+cosmiconfig@^7.0.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-7.1.0.tgz#1443b9afa596b670082ea46cbd8f6a62b84635f6"
   integrity sha512-AdmX6xUzdNASswsFtmwSt7Vj8po9IuqXm0UXz7QKPuEUmPB4XyjGfaAr2PSuELMwkRMVH1EpIkX5bTZGRB3eCA==
@@ -1133,6 +1138,16 @@ cosmiconfig@^7.0.0, cosmiconfig@^7.0.1:
     parse-json "^5.0.0"
     path-type "^4.0.0"
     yaml "^1.10.0"
+
+cosmiconfig@^8.0.0:
+  version "8.3.6"
+  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-8.3.6.tgz#060a2b871d66dba6c8538ea1118ba1ac16f5fae3"
+  integrity sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA==
+  dependencies:
+    import-fresh "^3.3.0"
+    js-yaml "^4.1.0"
+    parse-json "^5.2.0"
+    path-type "^4.0.0"
 
 create-require@^1.1.0:
   version "1.1.1"
@@ -1981,7 +1996,7 @@ ignore@^5.2.0:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.1.tgz#c2b1f76cb999ede1502f3a226a9310fdfe88d46c"
   integrity sha512-d2qQLzTJ9WxQftPAuEQpSPmKqzxePjzVbpAVv62AQ64NTL+wR4JkrVqR/LqFsFEUsHDAiId52mJteHDFuDkElA==
 
-import-fresh@^3.0.0, import-fresh@^3.2.1:
+import-fresh@^3.0.0, import-fresh@^3.2.1, import-fresh@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/import-fresh/-/import-fresh-3.3.0.tgz#37162c25fcb9ebaa2e6e53d5b4d88ce17d9e0c2b"
   integrity sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==
@@ -2761,7 +2776,7 @@ parent-module@^1.0.0:
   dependencies:
     callsites "^3.0.0"
 
-parse-json@^5.0.0:
+parse-json@^5.0.0, parse-json@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-5.2.0.tgz#c76fc66dee54231c962b22bcc8a72cf2f99753cd"
   integrity sha512-ayCKvm/phCGxOkYRSCM82iDwct8/EonSEgCSxWxD7ve6jHggsFl4fZVQBPRNgQoKiuV/odhFrGzQXZwbifC8Rg==
