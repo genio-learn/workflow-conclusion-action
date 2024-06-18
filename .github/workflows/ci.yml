@@ -12,4 +12,4 @@ jobs:
         uses: ./
       - name: Gives a conclusion
         run: |
-          if [[ "${{ env.WORKFLOW_CONCLUSION }}" != "success" ]]; then echo "The pipeline failed" && exit 1; fi
+          if [[ "${{ env.WORKFLOW_CONCLUSION }}" != "skipped" ]]; then echo "The pipeline failed" && exit 1; fi
