@@ -45,7 +45,7 @@
     "@commitlint/config-conventional": "^19.2.2",
     "@octokit/openapi-types": "^22.2.0",
     "@octokit/types": "^13.5.0",
-    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-commonjs": "^28.0.0",
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^11.1.6",
