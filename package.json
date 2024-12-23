@@ -47,7 +47,7 @@
     "@octokit/types": "^13.5.0",
     "@rollup/plugin-commonjs": "^28.0.0",
     "@rollup/plugin-json": "^6.1.0",
-    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-node-resolve": "^16.0.0",
     "@rollup/plugin-typescript": "^12.1.0",
     "@sindresorhus/tsconfig": "^7.0.0",
     "@technote-space/github-action-helper": "^5.3.17",
