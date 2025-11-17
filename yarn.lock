@@ -1005,9 +1005,9 @@
   integrity sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==
 
 "@sindresorhus/tsconfig@^8.0.1":
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/@sindresorhus/tsconfig/-/tsconfig-8.0.1.tgz#dc07ac6be6ab1970cff080c1ab056678220ccc37"
-  integrity sha512-EcJpJuPR+Ot2DGJwQNRMVrWMxiYluGEQrgHeFHvKkKJcHCL/J3fmAKtN5WmAHIN7oxtwSEvNfjJgwffmxKBw9Q==
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/tsconfig/-/tsconfig-8.1.0.tgz#c09c74f87a107a7941bb251bbbaab0c2a48c43e1"
+  integrity sha512-MggpguA4jNdtyoUy2Hs54nb4lP4rbhH34CsOiFId1q6fmFPnipqeo70ZRkjp5p4Z7wdyspALtSAcKaxL2/3waQ==
 
 "@technote-space/github-action-helper@^5.3.10", "@technote-space/github-action-helper@^5.3.17":
   version "5.3.17"
