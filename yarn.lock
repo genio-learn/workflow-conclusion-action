@@ -263,7 +263,7 @@
   dependencies:
     escalade "^3.2.0"
 
-"@commitlint/types@^20.4.0", "@commitlint/types@^20.4.3":
+"@commitlint/types@^20.4.3":
   version "20.4.3"
   resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-20.4.3.tgz#aa3fb9732dd42dea590d165214631ebc7b07eb59"
   integrity sha512-51OWa1Gi6ODOasPmfJPq6js4pZoomima4XLZZCrkldaH2V5Nb3bVhNXPeT6XV0gubbainSpTw4zi68NqAeCNCg==
@@ -1818,14 +1818,6 @@ conventional-commits-parser@^6.3.0:
     "@simple-libs/stream-utils" "^1.2.0"
     meow "^13.0.0"
 
-conventional-commits-parser@^6.3.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/conventional-commits-parser/-/conventional-commits-parser-6.3.0.tgz#fc170753ca66f31940a438539bf48e4406ac54b5"
-  integrity sha512-RfOq/Cqy9xV9bOA8N+ZH6DlrDR+5S3Mi0B5kACEjESpE+AviIpAptx9a9cFpWCCvgRtWT+0BbUw+e1BZfts9jg==
-  dependencies:
-    "@simple-libs/stream-utils" "^1.2.0"
-    meow "^13.0.0"
-
 convert-source-map@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-2.0.0.tgz#4b560f649fc4e918dd0ab75cf4961e8bc882d82a"
@@ -3342,9 +3334,9 @@ lines-and-columns@^1.1.6:
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
 
 lint-staged@^16.0.0:
-  version "16.3.2"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-16.3.2.tgz#378b48c6c340d42eefcc8d13d198b61a562e63a9"
-  integrity sha512-xKqhC2AeXLwiAHXguxBjuChoTTWFC6Pees0SHPwOpwlvI3BH7ZADFPddAdN3pgo3aiKgPUx/bxE78JfUnxQnlg==
+  version "16.3.3"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-16.3.3.tgz#ce5c95b5623cca295f8f4251f00c0642c7e84976"
+  integrity sha512-RLq2koZ5fGWrx7tcqx2tSTMQj4lRkfNJaebO/li/uunhCJbtZqwTuwPHpgIimAHHi/2nZIiGrkCHDCOeR1onxA==
   dependencies:
     commander "^14.0.3"
     listr2 "^9.0.5"
