@@ -258,7 +258,7 @@
   dependencies:
     escalade "^3.2.0"
 
-"@commitlint/types@^21.1.0":
+"@commitlint/types@^21.0.1", "@commitlint/types@^21.1.0":
   version "21.1.0"
   resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-21.1.0.tgz#174651d9d728f79603b4248a7c54a285761a21fe"
   integrity sha512-YodnnnH1Cp+08nP8HGNJAIuB6L3/vdCTHVRTfF8Ik/wRCLOTsU9zwv3yO1cSPQRDa9CLYtE+UJ2K67r7CwMSFw==
