@@ -1,5 +1,7 @@
 # Workflow Conclusion Action
 
+Archived, use https://github.com/genio-learn/actions/tree/main/workflow-conclusion instead.
+
 [![CI Status](https://github.com/technote-space/workflow-conclusion-action/workflows/CI/badge.svg)](https://github.com/technote-space/workflow-conclusion-action/actions)
 [![codecov](https://codecov.io/gh/technote-space/workflow-conclusion-action/branch/main/graph/badge.svg)](https://codecov.io/gh/technote-space/workflow-conclusion-action)
 [![CodeFactor](https://www.codefactor.io/repository/github/technote-space/workflow-conclusion-action/badge)](https://www.codefactor.io/repository/github/technote-space/workflow-conclusion-action)
